@@ -139,7 +139,7 @@ border:1px solid #F00
 
 #### 2.3、常用属性总结
 
-1. 边框宽度\(border-width\)
+1. 边框宽度(border-width)
 
    | 属性 | 说明 |
    | :--- | :--- |
@@ -149,7 +149,7 @@ border:1px solid #F00
    | border-bottom | 简写属性。作用是在一个声明中用来设置下边框的所有属性。 |
    | border-left | 简写属性。用于在一个声明中设置左边框的所有属性。 |
 
-2. 变样样式\(border-style\)
+2. 变样样式(border-style)
 
    | 可选值 | 描述 |
    | :--- | :--- |
@@ -159,12 +159,12 @@ border:1px solid #F00
    | solid | 定义实线 |
    | double | 定义双线 双线的宽度等于 border-width 的值 |
 
-3. ##### 边框颜色\(border-color\)
+3. ##### 边框颜色(border-color)
 
    | 可选值 | 描述 |
    | :--- | :--- |
-   | color\_name | 规定颜色值为颜色名称的边框颜色（比如 red）。 |
-   | hex\_number | 规定颜色值为十六进制值的边框颜色（比如 \#ff0000）。 |
+   | color_name | 规定颜色值为颜色名称的边框颜色（比如 red）。 |
+   | hex_number | 规定颜色值为十六进制值的边框颜色（比如 #ff0000）。 |
 
 ### 3、内边距（padding）
 
@@ -272,53 +272,22 @@ border:1px solid #F00
    当margin设为负数时，会使被设为负数的块向相反 的方向移动，甚至覆盖在另外的块上。
 
    ```
-   <
-   style type="text/css"
-   >
-
+   <style type="text/css">
 
      #div1{
-
-
-     height: 50px;
-
-
-     width: 50px;
-
-
+     height: 100px;
+     width: 100px;
      background: blue;
-
-
      }
-
-
      #div2{
-
-
      background: hotpink;
-
-
-     height: 50px;
-
-
-     width: 50px;
-
-
+     height: 100px;
+     width: 100px;
      margin-top: -25px;
-
-
      margin-left: -25px;
-
-
      }
-
-
-   ​
-
-
-   <
-   /style
-   >
+   </style>
+  
    ```
 
    ![](http://opzv089nq.bkt.clouddn.com/17-8-16/39362187.jpg)
