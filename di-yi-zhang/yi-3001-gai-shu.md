@@ -1,8 +1,8 @@
 # CSS概述
 
-## 一、什么是CSS?​	
+## 一、什么是CSS?​
 
-1. CSS 指层叠样式表 (**C**ascading **S**tyle **S**heets)
+1. CSS 指层叠样式表 \(**C**ascading **S**tyle **S**heets\)
 2. 样式定义**如何显示** HTML 元素
 3. 样式通常存储在**样式表**中
 4. 把样式添加到 HTML 4.0 中，是为了**解决内容与表现分离的问题**
@@ -12,25 +12,24 @@
 
 ## 二、为何使用CSS？
 
-​	CSS帮助您将文档信息的内容 和如何展现它的细节相分离,如何展现文档的细节即为样式(style)。您可以将样式从它的内容分离出来，能使我们在开发中：
+​    CSS帮助您将文档信息的内容 和如何展现它的细节相分离,如何展现文档的细节即为样式\(style\)。您可以将样式从它的内容分离出来，能使我们在开发中：
 
 1. 避免重复
-
 
 1. 更容易维护
 
 ## 三、发展史
 
 1. 1996年12月，发布了CSS 1.0规范。
+2. 1998年 5月，发布了CSS 2.0规范。
+3. 2004年 6月，发布了CSS 2.1规范。
+4. 2011年 9月，发布了CSS 3.0规范
 
+1. 2011年 9月，发布了CSS 3.0规范。
 
-1. 1998年 5月，发布了CSS 2.0规范。
-2. 2004年 6月，发布了CSS 2.1规范。
-3. 2011年 9月，发布了CSS 3.0规范。
+## 四、如何使用CS
 
-## 四、如何使用CSS
-
-### 1、外部样式表(External style sheet)
+### 1、外部样式表\(External style sheet\)
 
 1. 说明
 
@@ -44,7 +43,7 @@
 
    ```html
    <head>
-   	<link href="css/style.css"  rel="stylesheet" type="text/css">
+       <link href="css/style.css"  rel="stylesheet" type="text/css">
    </head>
    ```
 
@@ -59,15 +58,15 @@
 
    1、css样式文件名称以有意义的英文字母命名，如 main.css。
 
-   2、rel="stylesheet" type="text/css" 是固定写法不可修改。
+   2、rel="stylesheet" type="text/css" 是固定写法不可修改。  
    3、link 标签位置一般写在 head 标签之内最上面。
 
-### 2、内部样式表(Internal style sheet)
+### 2、内部样式表\(Internal style sheet\)
 
 1. 说明
 
    ```
-   	把样式代码写在 <style type="text/css"></style> 标签之间,当单个文档需要特殊的样式时，就应该使用内部样式表,我们可以使用 <style> 标签在文档头部定义内部样式表
+       把样式代码写在 <style type="text/css"></style> 标签之间,当单个文档需要特殊的样式时，就应该使用内部样式表,我们可以使用 <style> 标签在文档头部定义内部样式表
    ```
 
 2. 示例代码
@@ -90,7 +89,7 @@
    嵌入式css样式必须写在 <style></style> 之间，并且一般情况下内部样式写在 <head></head> 之间
    ```
 
-### 3、内联样式(Inline style)
+### 3、内联样式\(Inline style\)
 
 1. 说明
 
@@ -105,7 +104,7 @@
    </div>
    ```
 
-### 4、多重样式(样式继承)
+### 4、多重样式\(样式继承\)
 
 1. 说明
 
@@ -150,7 +149,7 @@
 
 1. 详细说明查看网站
 
-   http://www.nowamagic.net/librarys/veda/detail/1606
+   [http://www.nowamagic.net/librarys/veda/detail/1606](http://www.nowamagic.net/librarys/veda/detail/1606)
 
 2. 经验
 
