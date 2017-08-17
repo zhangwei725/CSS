@@ -234,6 +234,10 @@ background: background-color || background-image || background-repeat || backgro
 2. 示例代码
 
    ```
+   div{min-width:50px}
+   div{max-width:50px}
+   div{max-height:50px}
+   div{min-height:50px}
 
    ```
 
