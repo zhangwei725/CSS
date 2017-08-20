@@ -1,4 +1,4 @@
-# 布局
+# Flex布局
 
 ## 一、基础概念
 
@@ -25,6 +25,14 @@
 
 1. 子元素的float、clear和vertical-align属性将失效
 2. CSS columns 在弹性盒子中不起作用
+
+### 4、浏览器支持
+
+| Chrome             | Safari               | Firefox             | Opera       | IE                    | Android              | iOS                  |
+| ------------------ | -------------------- | ------------------- | ----------- | --------------------- | -------------------- | -------------------- |
+| 20- (old)21+ (new) | 3.1+ (old)6.1+ (new) | 2-21 (old)22+ (new) | 12.1+ (new) | 10 (tweener)11+ (new) | 2.1+ (old)4.4+ (new) | 3.2+ (old)7.1+ (new) |
+
+
 
 ## 二、容器(container)
 
@@ -1268,10 +1276,78 @@
 
 4. 示例代码(参考align-items)
 
-## 四、综合案例
+## 四、案例
 
-1. ​
-2. ​
+### 1、导航
+
+1. HTML代码
+
+   ```
+   <ul class="navigation">
+     <li><a href="#">首页</a></li>
+     <li><a href="#">产品案例</a></li>
+     <li><a href="#">关于我们</a></li>
+     <li><a href="#">联系我们</a></li>
+   </ul>
+   ```
+
+2. CSS代码
+
+   ```
+   .navigation {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: flex-end;
+   }
+   ```
+
+### 2、居中显示
+
+1. HTML代码
+
+   ```
+   <ul class="flex-container">
+     <li class="flex-item">1</li>
+     <li class="flex-item">2</li>
+     <li class="flex-item">3</li>
+     <li class="flex-item">4</li>
+     <li class="flex-item">5</li>
+     <li class="flex-item">6</li>
+   </ul>
+   ```
+
+2. CSS代码
+
+```
+   .flex-container {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     
+     -webkit-flex-flow: row wrap;
+     justify-content: space-around;
+   }
+
+   .flex-item {
+     background: tomato;
+     padding: 5px;
+     width: 200px;
+     height: 150px;
+     margin-top: 10px;
+     
+     line-height: 150px;
+     color: white;
+     font-weight: bold;
+     font-size: 3em;
+     text-align: center;
+   }
+```
 
 ## 参考资料
 
