@@ -10,5 +10,5 @@
   * [五、常用属性](di-er-zhang/wu-3001-chang-yong-shu-xing.md)
 * [第三章](di-san-zhang.md)
   * [六、CSS3属性介绍](di-san-zhang/liu-3001-css3-shu-xing-jie-shao.md)
-  * [七、总结](di-san-zhang/qi-3001-zong-jie.md)
+  * [七、布局](di-san-zhang/qi-3001-zong-jie.md)
 
